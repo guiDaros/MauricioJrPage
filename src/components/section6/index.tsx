@@ -1,5 +1,8 @@
 import React from 'react';
 import { SectionContainer, SectionTitle, ItemGrid, ItemCard, Icon, ItemTitle, ItemDescription, ItemHeader } from './styles';
+import fstImage from '../../assets/coments/3rd.png'
+import sndImage from '../../assets/coments/snd.png'
+import trdImage from '../../assets/coments/trd.png'
 
 function Section6() {
   return (
@@ -7,32 +10,16 @@ function Section6() {
       <SectionTitle>O título principal da seção</SectionTitle>
       <ItemGrid>
         <ItemCard>
-          <ItemHeader>
-            <Icon src="caminho-da-imagem-1" alt="Imagem 1" />
-            <ItemTitle>Título 1</ItemTitle>
-          </ItemHeader>
-          <ItemDescription>Texto descritivo para o primeiro item.</ItemDescription>
+          <Icon src={fstImage} alt="Imagem 1" />
         </ItemCard>
         <ItemCard>
-          <ItemHeader>
-            <Icon src="caminho-da-imagem-2" alt="Imagem 2" />
-            <ItemTitle>Título 2</ItemTitle>
-          </ItemHeader>
-          <ItemDescription>Texto descritivo para o segundo item.</ItemDescription>
+          <Icon src={sndImage} alt="Imagem 2" />
         </ItemCard>
         <ItemCard>
-          <ItemHeader>
-            <Icon src="caminho-da-imagem-3" alt="Imagem 3" />
-            <ItemTitle>Título 3</ItemTitle>
-          </ItemHeader>
-          <ItemDescription>Texto descritivo para o terceiro item.</ItemDescription>
+          <Icon src={trdImage} alt="Imagem 3" />
         </ItemCard>
         <ItemCard>
-          <ItemHeader>
-            <Icon src="caminho-da-imagem-4" alt="Imagem 4" />
-            <ItemTitle>Título 4</ItemTitle>
-          </ItemHeader>
-          <ItemDescription>Texto descritivo para o quarto item.</ItemDescription>
+          <Icon src="caminho-da-imagem-4" alt="Imagem 4" />
         </ItemCard>
       </ItemGrid>
     </SectionContainer>

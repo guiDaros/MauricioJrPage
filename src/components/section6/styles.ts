@@ -63,10 +63,9 @@ export const ItemCard = styled.div`
 `;
 
 export const Icon = styled.img`
-  width: 20px;
-  height: 20px;
-  margin-right: 0.5rem;
-`;
+  width: 100%;
+  height: 100%;
+  `;
 
 export const ItemTitle = styled.h3`
   font-size: 1.25rem;
