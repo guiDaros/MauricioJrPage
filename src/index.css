@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Defina a fonte usando @font-face */
+@font-face {
+  font-family: 'big_noodle_titling';
+  src: url('/fonts/big_noodle_titling.ttf') format('truetype'),
+       url('/fonts/big_noodle_titling_oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Estilos globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  max-width: 100vw;
+  height: 100%;
+  font-family: 'big_noodle_titling', sans-serif; /* Aplicando a fonte globalmente */
+  overflow: auto;
+  cursor: default;
+
+  overflow-x: hidden; /* Desabilita a rolagem lateral */
+  overflow-y: auto; /* Permite rolagem vertical, caso necessário */
+
+  background: linear-gradient(
+    to bottom,
+    #03051B,
+    #02031A,
+    #040720,
+    #03051B,
+    #0A0F27,
+    #02031A,
+    #111935,
+    #03051B,
+    #02031A,
+    #050722,
+    #0E142E,
+    #03051B,
+    #040720
+  );
+  background-size: 100% 600vh;
+  background-repeat: no-repeat;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Estilo da barra de rolagem */
+::-webkit-scrollbar {
+  width: 9px; /* Largura da barra de rolagem */
+  height: 12px; /* Altura da barra de rolagem (para rolagem horizontal) */
+}
+
+/* Estilo do "thumb" (a parte que o usuário arrasta) */
+::-webkit-scrollbar-thumb {
+  background-color: #0096f2; /* Azul mais vivo para o "thumb" */
+  border-radius: 10px; /* Deixa os cantos arredondados */
+}
+
+/* Estilo da trilha da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #004976; /* Azul mais escuro para o fundo da barra */
+  border-radius: 10px; /* Deixa a trilha arredondada */
+}
+
+
