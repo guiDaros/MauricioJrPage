@@ -22,6 +22,7 @@ export const ItemGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   gap: 50px;  /* Espaçamento fixo entre os itens */
   width: 900px;  /* Largura fixa para a box maior */
   margin: 0 auto;  /* Centraliza a box */

@@ -19,7 +19,7 @@ export const GeneralContainer = styled.div`
   }
 
   @media (max-width: 1000px) {
-    height: 250vh;  // Ajusta a altura para telas menores
+    height: 270vh;  // Ajusta a altura para telas menores
   }
 `;
 
@@ -54,8 +54,8 @@ export const ItemContainer = styled.div`
   gap: 20px;
 
   img {
-    width: 120px;  /* Tamanho padrão da imagem */
-    height: 110px;
+    width: 100px;  /* Tamanho padrão da imagem */
+    height: auto;
   }
 
   h2 {
@@ -77,7 +77,7 @@ export const ItemContainer = styled.div`
     /* Ajuste da imagem na coluna */
     img {
       width: 150px;   /* Largura da imagem */
-      height: 150px;  /* Altura da imagem */
+      height: auto;  /* Altura da imagem */
     }
   }
 `;

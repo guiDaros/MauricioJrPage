@@ -14,12 +14,12 @@ export function Section3() {
         <ImageSec3 src={image}></ImageSec3>
         {/* Você pode adicionar qualquer conteúdo aqui */}
         <ListSec3>
-          <li><img src={image2}/> Benefício 1</li>
-          <li><img src={image2}/> Benefício 2</li>
-          <li><img src={image2}/> Benefício 3</li>
-          <li><img src={image2}/> Benefício 4</li>
-          <li><img src={image2}/> Benefício 5</li>
-          <li><img src={image2}/> Benefício 6</li>
+          <li><img src={image2}/>Treino Individualizado e Personalizado.</li>
+          <li><img src={image2}/>Correção de Movimentos.</li>
+          <li><img src={image2}/>Avaliação Funcional e Correção Postural.</li>
+          <li><img src={image2}/>Reabilitação de Dores ou Lesões.</li>
+          <li><img src={image2}/>Acesso ao Aplicativo Próprio.</li>
+          <li><img src={image2}/>Acompanhamento Direto pelo WhatsApp por Profissional Especializado.</li>
         </ListSec3>
       </UnderTitleContainer>
     </GeneralContainer>

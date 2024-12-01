@@ -9,7 +9,7 @@ export const GeneralContainerSec4 = styled.div`
   background-color: transparent; /* Cor de fundo, ajuste conforme necessário */
 
   @media (max-width: 1050px) {
-    height: 155vh;
+    height: 170vh;
   }
 `;
 

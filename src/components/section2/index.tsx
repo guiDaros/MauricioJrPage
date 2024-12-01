@@ -6,25 +6,28 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import { GeneralContainer, TitleSec2, CustomSwiper } from "./styles";
+// Importando as imagens
+import img1 from "../../assets/sec2assets/1.png";
+import img2 from "../../assets/sec2assets/2.png";
+import img3 from "../../assets/sec2assets/3.png";
+import img4 from "../../assets/sec2assets/4.png";
+import img5 from "../../assets/sec2assets/5.png";
+import img6 from "../../assets/sec2assets/6.png";
+import img7 from "../../assets/sec2assets/7.png";
+import img8 from "../../assets/sec2assets/8.png";
 
-
+import { GeneralContainer, TitleSec2, CustomSwiper, SlideCard, SlidesWrapper } from "./styles";
 
 const Section2 = () => {
-
   return (
     <GeneralContainer>
       <TitleSec2>Titlezinho</TitleSec2>
       <CustomSwiper
         modules={[Navigation, Pagination, A11y]}
-        spaceBetween={10}
-        slidesPerView={3}
-        navigation={{ enabled: true }}
-        watchOverflow={false} // Para desativar controles quando não houver slides suficientes
-
-       
-
-
+        navigation
+        spaceBetween={100}
+        slidesPerView={1}
+        watchOverflow={true}
         breakpoints={{
           1200: {
             slidesPerView: 3,
@@ -34,89 +37,57 @@ const Section2 = () => {
             slidesPerView: 2,
             spaceBetween: 8,
           },
-          480: {
+          500: {
             slidesPerView: 1,
-            spaceBetween: 5,
+            spaceBetween: 6,
           },
         }}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SlidesWrapper>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img1} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img2} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img3} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img4} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img5} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img6} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img7} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+          <SwiperSlide>
+            <SlideCard>
+              <img src={img8} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+        </SlidesWrapper>
       </CustomSwiper>
     </GeneralContainer>
   );
 };
 
 export { Section2 };
-
-
-
-
-
-// import React, { useEffect, useState } from "react";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import "swiper/css/pagination";
-// import "swiper/css/scrollbar";
-// import { GeneralContainer, TitleSec2, CustomSwiper } from "./styles";
-
-// export function Section2() {
-//   const [slidesPerView, setSlidesPerView] = useState(3);
-
-//   useEffect(() => {
-//     const handleResize = () => {
-//       if (window.innerWidth < 480) {
-//         setSlidesPerView(1);
-//       } else if (window.innerWidth < 768) {
-//         setSlidesPerView(2);
-//       } else {
-//         setSlidesPerView(3);
-//       }
-//     };
-
-//     handleResize();
-//     window.addEventListener("resize", handleResize);
-
-//     return () => {
-//       window.removeEventListener("resize", handleResize);
-//     };
-//   }, []);
-
-//   return (
-//     <GeneralContainer>
-//       <TitleSec2>Titlezinho</TitleSec2>
-//       <CustomSwiper
-//         modules={[Navigation, A11y]}
-//         spaceBetween={10}
-//         slidesPerView={slidesPerView}
-//         navigation
-//         loop={true}
-
-//         breakpoints={{
-//           1200: {
-//             slidesPerView: 3,
-//             spaceBetween: 10,
-//           },
-//           768: {
-//             slidesPerView: 2,
-//             spaceBetween: 8,
-//           },
-//           480: {
-//             slidesPerView: 1,
-//             spaceBetween: 5,
-//           },
-//         }}
-//       >
-//         <SwiperSlide>Slide 1</SwiperSlide>
-//         <SwiperSlide>Slide 2</SwiperSlide>
-//         <SwiperSlide>Slide 3</SwiperSlide>
-//         <SwiperSlide>Slide 4</SwiperSlide>
-//         <SwiperSlide>Slide 5</SwiperSlide>
-//       </CustomSwiper>
-//     </GeneralContainer>
-//   );
-// }

@@ -13,7 +13,7 @@ import SafeBuyImage from '../../assets/safeprivateguaranted.png'
 
 export function Section4() {
   return (
-    <GeneralContainerSec4>
+    <GeneralContainerSec4 id="section4">
       <TitleSec4>Title example</TitleSec4>
       <OptionsContainer>
         <AlternativePricesContainer>
@@ -27,7 +27,7 @@ export function Section4() {
           <BoxImage src={SafeBuyImage}/>
         </MasterPriceContainer>
         <AlternativePricesContainer>
-          <h2>Consultoria Semestral</h2>
+          <h2>Consultoria Trimestal</h2>
           <PurchaseButton />
           <BoxImage src={SafeBuyImage}/>
         </AlternativePricesContainer>

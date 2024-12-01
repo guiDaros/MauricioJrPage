@@ -1,8 +1,14 @@
 import styled from 'styled-components';
 
+
+
 export const SectionContainer = styled.section`
   padding: 2rem;
   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
 `;
 
 export const SectionTitle = styled.h2`
@@ -30,3 +36,5 @@ export const VideoContainer = styled.div`
     }
   }
 `;
+
+

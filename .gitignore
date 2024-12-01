@@ -7,10 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Diretórios e arquivos de build
 node_modules
 dist
 dist-ssr
+.vite/
 *.local
+
+# Arquivos de configuração sensíveis
+.env
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +27,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Arquivos de saída TS/JS (se aplicável)
+*.js
+*.js.map
+
+# Certificados e chaves privadas (se aplicável)
+*.key
+*.crt

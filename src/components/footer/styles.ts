@@ -24,4 +24,8 @@ export const RightContainer = styled.div`
   display: flex;
   gap: 20px;
   align-items: center;
+
+  img{
+    width: 50px;
+  }
 `;
