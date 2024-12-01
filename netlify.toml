@@ -1,0 +1,3 @@
+[build]
+  command = "npm run build"  # Certifique-se de que o comando de build está correto
+  publish = "dist"  # Altere para "dist" ou o diretório correto
