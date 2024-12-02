@@ -9,7 +9,7 @@ export const GeneralContainerSec4 = styled.div`
   background-color: transparent; /* Cor de fundo, ajuste conforme necessário */
 
   @media (max-width: 1050px) {
-    height: 170vh;
+    height: 1500px;
   }
 `;
 
@@ -23,6 +23,10 @@ export const TitleSec4 = styled.h1`
   white-space: nowrap; /* Impede quebra de linha, se necessário */
   overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse o contêiner */
   text-overflow: ellipsis; /* Adiciona '...' se o conteúdo for muito grande */
+
+  @media (max-width: 1050px) {
+    margin-bottom: 70px;
+  }
 `;
 
 export const OptionsContainer = styled.span`

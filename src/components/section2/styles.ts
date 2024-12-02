@@ -14,6 +14,12 @@ export const GeneralContainer = styled.div`
   padding: 2rem;
   background-color: transparent;
   box-sizing: border-box;
+
+  @media (max-width: 500px) {
+  height: 700px;
+
+  gap: 80px;
+  }
 `;
 
 // Título da seção

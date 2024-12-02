@@ -21,7 +21,7 @@ import { GeneralContainer, TitleSec2, CustomSwiper, SlideCard, SlidesWrapper } f
 const Section2 = () => {
   return (
     <GeneralContainer>
-      <TitleSec2>Titlezinho</TitleSec2>
+      <TitleSec2>Resultados de quem já experimentou o método</TitleSec2>
       <CustomSwiper
         modules={[Navigation, Pagination, A11y]}
         navigation

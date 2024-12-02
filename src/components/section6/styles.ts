@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SectionContainer = styled.section`
   padding: 2rem;
@@ -9,6 +9,10 @@ export const SectionContainer = styled.section`
   justify-content: center;
   flex-direction: column;
 
+  @media (max-width: 1050px) {
+    height: 1300px;
+    gap: 50px;
+  }
 `;
 
 export const SectionTitle = styled.h1`
@@ -16,6 +20,10 @@ export const SectionTitle = styled.h1`
   margin-bottom: 1.5rem;
 
   color: #fff;
+
+  @media (max-width: 1050px) {
+    font-size: 35px;
+  }
 `;
 
 export const ItemGrid = styled.div`
@@ -23,17 +31,17 @@ export const ItemGrid = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;  /* Espaçamento fixo entre os itens */
-  width: 900px;  /* Largura fixa para a box maior */
-  margin: 0 auto;  /* Centraliza a box */
+  gap: 50px; /* Espaçamento fixo entre os itens */
+  width: 900px; /* Largura fixa para a box maior */
+  margin: 0 auto; /* Centraliza a box */
 
   @media (max-width: 1500px) {
-    width: 80%;  /* Diminuir a largura da grid gradualmente */
+    width: 80%; /* Diminuir a largura da grid gradualmente */
   }
 
   @media (max-width: 1000px) {
     flex-direction: column; /* Faz com que os cards fiquem em uma coluna */
-    width: 100%;  /* A box maior toma toda a largura disponível */
+    width: 100%; /* A box maior toma toda a largura disponível */
   }
 `;
 
@@ -46,7 +54,7 @@ export const ItemCard = styled.div`
   border: 1px solid #ddd;
   border-radius: 8px;
   width: 100%;
-  max-width: 400px;  /* Garante que a largura máxima dos cards seja 400px */
+  max-width: 400px; /* Garante que a largura máxima dos cards seja 400px */
   height: 250px;
 
   @media (max-width: 1500px) {
@@ -58,15 +66,15 @@ export const ItemCard = styled.div`
   }
 
   @media (max-width: 1000px) {
-    width: 100%;  /* Os cards vão ocupar toda a largura disponível em telas muito pequenas */
-    max-width: 400px;  /* Garante que o card não ultrapasse os 400px de largura */
+    width: 100%; /* Os cards vão ocupar toda a largura disponível em telas muito pequenas */
+    max-width: 400px; /* Garante que o card não ultrapasse os 400px de largura */
   }
 `;
 
 export const Icon = styled.img`
   width: 100%;
   height: 100%;
-  `;
+`;
 
 export const ItemTitle = styled.h3`
   font-size: 1.25rem;

@@ -9,7 +9,7 @@ import image2 from '../../assets/check.png'
 export function Section3() {
   return (
     <GeneralContainer>
-      <TitleSec3>O QUE VOCE IRA RECEBER</TitleSec3>
+      <TitleSec3>O QUE VOCÊ VAI RECEBER</TitleSec3>
       <UnderTitleContainer>
         <ImageSec3 src={image}></ImageSec3>
         {/* Você pode adicionar qualquer conteúdo aqui */}

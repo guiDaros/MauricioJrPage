@@ -8,7 +8,7 @@ import fourthImage from '../../assets/coments/4.png'
 function Section6() {
   return (
     <SectionContainer>
-      <SectionTitle>O título principal da seção</SectionTitle>
+      <SectionTitle>O que estão dizendo?</SectionTitle>
       <ItemGrid>
         <ItemCard>
           <Icon src={firstImage} alt="Imagem 1" />

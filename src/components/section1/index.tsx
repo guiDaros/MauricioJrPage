@@ -15,11 +15,11 @@ import profilePic from "../../assets/sec1assets/capa.png";
 
 export function Section1() {
   // Função para rolar para o final da página
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
-      behavior: "smooth",
-    });
+  const handleScrollToSection4 = () => {
+    const section4 = document.getElementById("section4"); // Encontra a Seção 4 pelo ID
+    if (section4) {
+      section4.scrollIntoView({ behavior: "smooth" }); // Rola suavemente até ela
+    }
   };
 
   return (
@@ -32,7 +32,7 @@ export function Section1() {
           <Description>Resolvo suas dores através da Biomecânica</Description>
         </TextLeftContainer>
         <ButtonSec1
-          onClick={scrollToBottom}
+          onClick={handleScrollToSection4}
           aria-label="Ir para o final da página"
         >
           Faça parte

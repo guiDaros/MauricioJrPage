@@ -9,6 +9,11 @@ export const SectionContainer = styled.section`
    flex-direction: column;
    align-items: center;
    gap: 50px;
+
+   @media (max-width: 1050px) {
+    height: 600px;
+    
+  }
 `;
 
 export const SectionTitle = styled.h2`

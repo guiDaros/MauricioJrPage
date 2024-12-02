@@ -22,7 +22,7 @@ export const GeneralContainer = styled.div`
   }
 
   @media (max-width: 500px) {
-  height: 97vh;
+  height: 870px;
   }
 `;
 

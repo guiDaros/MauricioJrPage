@@ -10,8 +10,8 @@ export const GeneralContainer = styled.div`
   position: relative;
 
   @media (max-width: 800px) {
-    height:95vh; /* Permite que o container se ajuste à altura do conteúdo */
-    gap: 50px; /* Reduz o espaçamento para telas menores */
+    height: 900px; /* Permite que o container se ajuste à altura do conteúdo */
+    gap: 70px; /* Reduz o espaçamento para telas menores */
   }
 `;
 
@@ -31,6 +31,8 @@ export const ImageSec3 = styled.img`
   
   @media (max-width: 800px) {
     height: 280px; /* Reduz a altura da imagem para telas menores */
+
+    margin-bottom: 30px;
   }
 `;
 

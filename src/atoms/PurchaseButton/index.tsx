@@ -12,7 +12,7 @@ const PurchaseButton = () => {
   return (
     <>
       <ButtonContainer type="button" onClick={openPopup}>
-        <ButtonText>Adiquira Ja</ButtonText>
+        <ButtonText>Adiquira Já</ButtonText>
       </ButtonContainer>
 
       {isPopupOpen && <Popup closePopup={closePopup} />}

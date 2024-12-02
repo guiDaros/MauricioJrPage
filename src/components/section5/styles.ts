@@ -19,7 +19,7 @@ export const GeneralContainer = styled.div`
   }
 
   @media (max-width: 1000px) {
-    height: 270vh;  // Ajusta a altura para telas menores
+    height: 2400px;  // Ajusta a altura para telas menores
   }
 `;
 
