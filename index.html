@@ -33,10 +33,12 @@
         "script",
         "https://connect.facebook.net/en_US/fbevents.js"
       );
-      fbq("init", "1596872831215814");
-      fbq("track", "PageView");
-    </script>
+      fbq("init", "1596872831215814"); // Inicialização do Pixel com seu ID
+      fbq("track", "PageView"); // Rastreando a visualização da página
 
+      // Evento ViewContent
+      fbq("track", "ViewContent"); // Disparando o evento ViewContent
+    </script>
     <!-- End Meta Pixel Code -->
     <title>MJ TEAM</title>
   </head>
