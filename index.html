@@ -36,19 +36,21 @@
 
       // Inicialização do Pixel e rastreamento de eventos
       fbq("init", "1596872831215814"); // Substitua pelo seu Pixel ID
-      fbq("track", "PageView");
+      fbq("track", "PageView"); // Rastreio de visualização da página
+      fbq("track", "ViewContent"); // Evento ViewContent
     </script>
     <!-- End Meta Pixel Code -->
     <title>MJ TEAM</title>
   </head>
   <body>
-    <noscript
-      ><img
+    <noscript>
+      <img
         height="1"
         width="1"
         style="display: none"
         src="https://www.facebook.com/tr?id=1596872831215814&ev=PageView&noscript=1"
-    /></noscript>
+      />
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
