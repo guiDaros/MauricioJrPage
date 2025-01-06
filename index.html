@@ -27,12 +27,7 @@
         t.src = v;
         s = b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t, s);
-      })(
-        window,
-        document,
-        "script",
-        "https://connect.facebook.net/en_US/fbevents.js"
-      );
+      })(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js");
 
       // Inicialização do Pixel e rastreamento de eventos
       fbq("init", "1596872831215814"); // Substitua pelo seu Pixel ID
@@ -51,7 +46,10 @@
         src="https://www.facebook.com/tr?id=1596872831215814&ev=PageView&noscript=1"
       />
     </noscript>
+
+    <!-- O restante da página é gerado pelo React, então o formulário aqui não é necessário -->
     <div id="root"></div>
+    
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

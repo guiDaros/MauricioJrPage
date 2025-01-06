@@ -1,3 +1,5 @@
+
+
 import React, { useState } from 'react';
 import { PopupContainer, PopupContent, CloseButton, InputGroup, Input } from './styles';
 import ButtonSec1 from '../BasicButton'; // Importando o componente ButtonSec1
@@ -22,7 +24,7 @@ function Popup({ closePopup }: PopupProps) {
       alert('Todos os campos devem ser preenchidos!');
       return; // Não envia se algum campo estiver vazio
     }
-  
+
     try {
       setIsSubmitting(true); // Indica que está enviando os dados
       // Enviar os dados para o Firebase
@@ -33,8 +35,17 @@ function Popup({ closePopup }: PopupProps) {
         phone,
       });
       console.log('Dados enviados com sucesso!');
+      
+      // Enviar evento de Lead para o Facebook Pixel
+      fbq('track', 'Lead', {
+        content_name: name,
+        content_category: plan,
+        email: email,
+        phone: phone,
+      });
+
       closePopup(); // Fecha o pop-up após envio
-  
+
       // Redireciona para o WhatsApp
       window.location.href = `https://wa.me/5554996252215?text=${encodeURIComponent(
         `Olá, meu nome é ${name}. Estou interessado no plano ${plan}.`
@@ -45,7 +56,6 @@ function Popup({ closePopup }: PopupProps) {
       setIsSubmitting(false); // Restaura o estado de envio
     }
   };
-  
 
   return (
     <PopupContainer>
@@ -102,8 +112,6 @@ function Popup({ closePopup }: PopupProps) {
             onClick={handleSubmit}
             aria-label="Enviar formulário"
             disabled={isSubmitting} // Agora o ButtonSec1 aceita o disabled
-            //envia para o whats app
-            // () => window.location.href='https://wa.me/5554996252215' juntar ao onclick
           >
             {isSubmitting ? 'Enviando...' : 'Enviar'}
           </ButtonSec1>
