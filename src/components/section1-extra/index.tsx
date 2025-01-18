@@ -16,7 +16,7 @@ export function Section1Extra() {
     <GeneralContainer>
       <TextMainContainer>
         <TitleSec1Extra>
-          QUEM É <SpanTitleSec1Extra>MAURICIO JUNIOR</SpanTitleSec1Extra>
+          QUEM É <SpanTitleSec1Extra>MAURICIO JUNIOR?</SpanTitleSec1Extra>
         </TitleSec1Extra>
         <DescriptionSec1Extra>
           <SpanDescriptionSec1Extra>Graduado</SpanDescriptionSec1Extra> em Educação Física.
