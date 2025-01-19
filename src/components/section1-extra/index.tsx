@@ -28,7 +28,7 @@ export function Section1Extra() {
           <br />
           <SpanDescriptionSec1Extra>Pós-Graduando</SpanDescriptionSec1Extra> em Correção Postural e Reabilitação de Lesões.
           <br /><br /> 
-          Aluno em regime especial do programa no <SpanDescriptionSec1Extra>mestrado</SpanDescriptionSec1Extra> em Envelhecimento Humano da
+          Aluno em regime especial do programa do <SpanDescriptionSec1Extra>mestrado</SpanDescriptionSec1Extra> em Envelhecimento Humano da
           Universidade de Passo Fundo.
           <br /><br />
           <SpanDescriptionSec1Extra>+ de 40 cursos</SpanDescriptionSec1Extra> realizados na área.
