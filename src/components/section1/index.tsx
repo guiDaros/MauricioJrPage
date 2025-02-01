@@ -29,7 +29,7 @@ export function Section1() {
           <TitleSec1>
             ALIANDO A <SpanTitleSec1>CIÊNCIA</SpanTitleSec1> AO TREINAMENTO.
           </TitleSec1>
-          <Description>Resolvo suas dores através da Biomecânica</Description>
+          <Description>Treinamento inteligente para quem busca evolução de verdade.</Description>
         </TextLeftContainer>
         <ButtonSec1
           onClick={handleScrollToSection4}
