@@ -20,7 +20,6 @@ function Section7() {
           src="https://www.youtube.com/embed/ADS8q-9R8n8"
           title="Descrição do vídeo"
           frameBorder="0"
-
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
@@ -30,7 +29,7 @@ function Section7() {
         onClick={handleScrollToSection4} // Passa a função ao botão
         aria-label="Ir para a Seção 4" // Adicione o atributo exigido
       >
-        Faça parte
+        Comece sua evolução agora!
       </ButtonSec1>
     </SectionContainer>
   );
