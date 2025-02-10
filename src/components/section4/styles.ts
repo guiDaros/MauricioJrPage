@@ -65,6 +65,12 @@ export const AlternativePricesContainer = styled.span`
     margin-top: auto; /* Move o texto para a metade superior */
   }
 
+  p{
+    text-align: center;
+
+    margin-top: 20px;
+  }
+
   button {
     margin-top: auto; /* Garante que o botão fique na parte de baixo */
     margin-bottom: 5px; /* Espaçamento de 5px acima da imagem */

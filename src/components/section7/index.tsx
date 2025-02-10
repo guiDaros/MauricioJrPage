@@ -29,7 +29,7 @@ function Section7() {
         onClick={handleScrollToSection4} // Passa a função ao botão
         aria-label="Ir para a Seção 4" // Adicione o atributo exigido
       >
-        Comece sua evolução agora!
+        Comece sua evolução <span>agora!</span>
       </ButtonSec1>
     </SectionContainer>
   );

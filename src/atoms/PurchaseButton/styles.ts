@@ -4,8 +4,8 @@ import styled from "styled-components";
 export const ButtonContainer = styled.button`
   background-color: #0066e8;
   text-align: center;
-  width: 12rem;
-  height: 3.7rem;
+  width: 15rem;
+  height: 4.7rem;
   border-radius: 1rem;
   position: relative;
   font-size: 1.25rem;

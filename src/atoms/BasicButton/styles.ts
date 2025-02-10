@@ -34,10 +34,15 @@ export const StyledButton = styled.button`
 `;
 
 export const Text = styled.span`
-  font-weight: 600;
+  font-weight: 400;
   color: #ffffff;
-  font-size: 1.8rem; /* Aumente o tamanho da fonte aqui também */
+  font-size: 26px; 
   transition: color 450ms ease-in-out;
 
   font-family: inherit;
+
+  span{
+    font-weight: 600;
+    font-size: 28px;
+  }
 `;

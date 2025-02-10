@@ -37,7 +37,7 @@ export function Section1() {
           onClick={handleScrollToSection4}
           aria-label="Ir para o final da página"
         >
-          Comece sua evolução agora!
+          Comece sua evolução <span>agora!</span>
         </ButtonSec1>
       </LeftContainer>
       <RightContainer>
