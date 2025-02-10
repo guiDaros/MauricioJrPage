@@ -6,7 +6,7 @@ export const StyledButton = styled.button`
 
   border: none;
   width: 15em;
-  height: 3.5rem;
+  height: 4.5rem;
   border-radius: 1.3em 0;
   display: flex;
   justify-content: center;
