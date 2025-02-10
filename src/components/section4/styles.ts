@@ -27,6 +27,14 @@ export const TitleSec4 = styled.h1`
   @media (max-width: 1050px) {
     margin-bottom: 70px;
   }
+
+  @media (max-width: 400px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 310px) {
+    font-size: 37px;
+  }
 `;
 
 export const OptionsContainer = styled.span`
@@ -46,7 +54,6 @@ export const OptionsContainer = styled.span`
   }
 `;
 
-
 export const AlternativePricesContainer = styled.span`
   display: flex;
   justify-content: space-between;
@@ -65,7 +72,7 @@ export const AlternativePricesContainer = styled.span`
     margin-top: auto; /* Move o texto para a metade superior */
   }
 
-  p{
+  p {
     text-align: center;
 
     margin-top: 20px;
