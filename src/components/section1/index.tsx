@@ -27,10 +27,10 @@ export function Section1() {
       <LeftContainer>
         <TextLeftContainer>
           <TitleSec1>
-            ALIANDO A <SpanTitleSec1>CIÊNCIA</SpanTitleSec1> AO TREINAMENTO.
+          Cansado de treinar e <SpanTitleSec1>não ver</SpanTitleSec1> resultado? 
           </TitleSec1>
           <Description>
-            Treinamento inteligente para quem busca evolução de verdade.
+           A culpa não é sua. Você só precisa do <span>método certo!</span>
           </Description>
         </TextLeftContainer>
         <ButtonSec1

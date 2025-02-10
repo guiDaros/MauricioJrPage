@@ -19,10 +19,11 @@ export const GeneralContainer = styled.div`
 
   @media (max-width: 1000px) {
     flex-direction: column;
+    height: 100vh;
   }
 
   @media (max-width: 500px) {
-  height: 870px;
+    height: 920px;
   }
 `;
 
@@ -102,6 +103,11 @@ export const TitleSec1 = styled.h2`
     font-size: 50px;
     width: 300px;
   }
+
+  @media (max-width: 320px) {
+    width: 280px;
+    font-size: 45px;
+  }
 `;
 
 export const SpanTitleSec1 = styled.span`
@@ -123,5 +129,10 @@ export const Description = styled.p`
 
   @media (max-width: 390px) {
     font-size: 1.5rem;
+  }
+
+  span {
+    color: #0066e8;
+    font-weight: bold;
   }
 `;
