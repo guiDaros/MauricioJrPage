@@ -7,7 +7,6 @@ export const ButtonContainer = styled.button`
   width: 15rem;
   height: 4.7rem;
   border-radius: 1rem;
-  position: relative;
   font-size: 1.25rem;
   font-weight: 600;
   color: black;
@@ -20,7 +19,7 @@ export const ButtonContainer = styled.button`
 
   &:hover {
     background-color: #3a86ff; /* Cor levemente mais escura */
-    transform: scale(1.02); /* Aumenta levemente o tamanho */
+    transform: scale(1); /* Aumenta levemente o tamanho */
   }
 
   &:active {
