@@ -30,4 +30,5 @@ export const ButtonContainer = styled.button`
 export const ButtonText = styled.p`
   text-align: center;
   color: #ffffff;
+  margin-botton: 10px;
 `;
