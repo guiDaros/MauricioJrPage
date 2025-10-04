@@ -1,9 +1,9 @@
 import React from 'react';
 import { SectionContainer, SectionTitle, ItemGrid, ItemCard, Icon, ItemTitle, ItemDescription, ItemHeader } from './styles';
-import firstImage from '../../assets/coments/3rd.png'
-import secondImage from '../../assets/coments/snd.png'
-import thirdImage from '../../assets/coments/trd.png'
-import fourthImage from '../../assets/coments/4.png'
+import firstImage from '../../assets/coments/4.png'
+import secondImage from '../../assets/coments/novas3.png'
+import thirdImage from '../../assets/coments/novas2.png'
+import fourthImage from '../../assets/coments/novas1.png'
 
 function Section6() {
   return (

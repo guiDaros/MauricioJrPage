@@ -15,6 +15,10 @@ import img5 from "../../assets/sec2assets/5.png";
 import img6 from "../../assets/sec2assets/6.png";
 import img7 from "../../assets/sec2assets/7.png";
 import img8 from "../../assets/sec2assets/8.png";
+import img9 from "../../assets/sec2assets/9.png";
+import img10 from "../../assets/sec2assets/10.png";
+import img11 from "../../assets/sec2assets/11.png";
+
 
 import { GeneralContainer, TitleSec2, CustomSwiper, SlideCard, SlidesWrapper } from "./styles";
 
@@ -82,6 +86,21 @@ const Section2 = () => {
           <SwiperSlide>
             <SlideCard>
               <img src={img8} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+           <SwiperSlide>
+            <SlideCard>
+              <img src={img9} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+           <SwiperSlide>
+            <SlideCard>
+              <img src={img10} alt="" />
+            </SlideCard>
+          </SwiperSlide>
+           <SwiperSlide>
+            <SlideCard>
+              <img src={img11} alt="" />
             </SlideCard>
           </SwiperSlide>
         </SlidesWrapper>
