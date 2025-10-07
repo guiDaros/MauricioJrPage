@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 export const ButtonContainer = styled.button`
   background-color: #0066e8;
-  width: auto;
+  width: fit-content;
+  padding: 0 2rem;
   height: 4.7rem;
   border-radius: 1rem;
   font-size: 1.25rem;
@@ -31,6 +32,7 @@ export const ButtonContainer = styled.button`
 export const ButtonText = styled.p`
   text-align: center;
   color: #ffffff;
-  margin-bottom: 0;
-  line-height: 1; 
+  margin: 0;
+  white-space: nowrap;
+  line-height: 1;
 `;
