@@ -1,4 +1,3 @@
-// src/atoms/PurchaseButton/index.tsx
 import React, { useState } from "react";
 import { ButtonContainer, ButtonText } from "./styles";
 import Popup from "../PopUp";
