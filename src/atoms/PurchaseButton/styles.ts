@@ -5,7 +5,7 @@ export const ButtonContainer = styled.button`
   border: none;
   border-radius: 0.5rem; /* leve arredondamento */
   cursor: pointer;
-  width: 200px;
+  width: 170px;
   height: 45px;
 
   &:hover {
